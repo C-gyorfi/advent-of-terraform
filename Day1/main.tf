@@ -1,5 +1,5 @@
 data "local_file" "input" {
-    filename = "${path.module}/input.txt"
+  filename = "${path.module}/input.txt"
 }
 
 locals {
